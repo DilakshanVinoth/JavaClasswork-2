@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightBulb</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+
+    <img id="image" src="./images/bulb1.jpg" alt="Image" class="w-80 h-auto rounded-lg shadow-lg mb-4">
+
+    <div class="flex space-x-4">
+        <button onclick="changeImage('./images/bulb1.jpg')" class="px-4 py-2  text-black font-semibold rounded-lg shadow-md ">
+        OFF
+        </button>
+        <button onclick="changeImage('./images/bulb.jpg')" class="px-4 py-2  text-black font-semibold rounded-lg shadow-md ">
+        ON
+        </button>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

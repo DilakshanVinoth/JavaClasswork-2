@@ -1,0 +1,42 @@
+.text-center{
+    text-align: center;
+}
+.text-2xl{
+    font-size: xx-large;
+}
+.text-3xl{
+    font-size: 35px ;
+}
+.font-bold{
+    font-weight: bold;
+}
+.border{
+    border: 2px black;
+}
+.h-y{
+    height: 300px;
+}
+.w-x{
+    width: 300px;
+}
+.background-black{
+    background-color:black;
+}
+ .item-center{
+    
+    justify-content: center;
+    
+} 
+body{
+    align-items: center;
+}
+.rounded-lg{
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+}
+.space-x-2 {
+    display: flex;
+    gap: 8px;
+}
